@@ -1,2 +1,2 @@
 # pf-baekjoon
-This space is for baekjoon.
+This repository has been created only for my Baekjoon practice:)
