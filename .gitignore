@@ -1,0 +1,6 @@
+# for Mac(xcode)
+*.xcodeproj
+
+# for Window(vscode)
+*.exe
+*.json
