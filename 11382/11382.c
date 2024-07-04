@@ -1,9 +1,4 @@
-//
-//  main.c
-//  11382
-//
-//  Created by SeongBinYoon on 2023/04/22.
-//
+// 11382 꼬마 정민
 
 #include <stdio.h>
 
