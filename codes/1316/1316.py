@@ -1,5 +1,27 @@
 # 1316 그룹 단어 체커
 
+def groupchecker(n):
+    lst = []
+    count = n
+    for _ in range(n):
+        word = input()
+        lst.append(word)
+    #print(lst)
+    
+    for i in range(n):
+        for j in range(len(lst[i])-1):
+            if lst[i][j] == lst[i][j+1]:
+                pass
+            elif lst[i][j] in lst[i][j+1:]:
+                count -= 1
+                break
+    return count
+
+n = int(input())
+result = groupchecker(n)
+print(result)
+
+'''
 x = input()
 # list의 인덱스
 loc = 0
@@ -20,3 +42,4 @@ for i in range(x[0]):
         else:
             flag = True
             continue
+'''
