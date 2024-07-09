@@ -4,3 +4,6 @@
 # for Window(vscode)
 *.exe
 *.json
+
+# test file
+test.py
