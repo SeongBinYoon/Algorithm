@@ -15,7 +15,6 @@ def isprime(n):
 
 # isprime 함수에 따라 소수면 바로 리턴, 소수가 아니면 다음 수로 옮기는 함수
 def position(m, n):
-    # m이 1인 경우 예외 처리
     while True:
         # 종료 조건
         if m > n:
