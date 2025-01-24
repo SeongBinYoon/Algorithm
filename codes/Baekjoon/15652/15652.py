@@ -14,7 +14,7 @@ def backtracking():
             res.append(i)
             backtracking()
             res.pop()
-        # 첫 노드가 아니고 수열에서 가장 큰 것보다 커야 수행
+        # 첫 노드가 아니고 수열에서 가장 큰 것보다 크거나 같으면 수행
         elif len(res) != 0 and i >= max(res):
             res.append(i)
             backtracking()
