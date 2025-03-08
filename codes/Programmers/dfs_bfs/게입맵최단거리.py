@@ -25,7 +25,7 @@ def solution(maps):
                 ny = y + dy[i]  # 열
             
                 # 경계를 넘어가면 반복문 다시
-                if nx < 0 or nx >= len(maps) or ny < 0 or ny >= len(maps):
+                if nx < 0 or nx >= len(maps) or ny < 0 or ny >= len(maps[0]):
                     continue
                 # 벽이어도 반복문 다시
                 if maps[nx][ny] == 0:
